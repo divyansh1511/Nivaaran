@@ -1,0 +1,77 @@
+.body{
+    width: 100%;
+}
+
+.navbar,
+.navbar-default {
+    background-color: #5099ed !important; /* override background image gradient w/ flat color */
+}
+
+.fontsize{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.Homep1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Homep1-left{
+    flex: 50%;
+    height: 75vh;
+}
+
+.Homep1-right{
+    flex: 50%;
+    height: 75vh;
+    object-fit:fill;
+    overflow: hidden;
+}
+.Homep1-right img{
+    height: 100%;
+    width: 100%;
+}
+
+.left-Box{
+    /* display: flex; */
+    /* height: 75vh; */
+    /* border: 2px solid black; */
+    padding-top: 100px;
+    align-items:center;
+    justify-content:center;
+}
+
+.left-Box h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #013B85;
+}
+
+.left-Box h3{
+    font-family:'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+.part2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+.part-heading{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #013B85;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.SigninBox{
+    width: 100%;
+    height: 90vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
